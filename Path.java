@@ -22,6 +22,9 @@ public class Path {
     public int findPath(int[][] matrix, int i, int j) //i and j are the beginning of the matrix (0,0)
     {
         int num;
+        if(i == 0 && j == 0){
+            System.out.print(matrix[i][j] + ", ");
+        }            
         if(i == matrix.length - 1){
             if(j < matrix[0].length - 1){
                 num = matrix[i][j+1];
