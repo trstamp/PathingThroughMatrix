@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Assignment3 {
+public class Path {
     Random ran = new Random();
     int max = 0;
 
